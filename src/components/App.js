@@ -10,7 +10,7 @@ import Teachers from './Teachers';
 const App = () => (
   <BrowserRouter>
     <div className="container">
-    <Route path={"/"} component={Header} />
+      <Route path={"/"} component={Header} />
       <Route exact path={"/"} component={Home} />
       <Route path={"/about"} component={About} />
       <Route path={"/courses"} component={Courses} />
